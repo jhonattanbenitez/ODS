@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 .container {
     max-width: 960px;
   }
@@ -57,13 +60,33 @@
   .contenedor_icono{
       display: flex;
       width: 100%;
-      padding-top: 5rem;
+      padding-top: 4rem;
       justify-content: center;
   }
   .heart{
-      fill: red;
+      color: red;
+      font-size: 150px;
   }
-
+  .drop{
+    color: rgba(212, 16, 16, 0.849);
+    font-size: 150px;
+}
+.lungs{
+    color: rgba(236, 100, 207, 0.849);
+    font-size: 150px;
+}
+.bed{
+    color: rgba(219, 36, 180, 0.849);
+    font-size: 150px;
+}
+.medical{
+    color: rgba(36, 137, 219, 0.849);
+    font-size: 150px;
+}
+.config{
+    color: rgba(93, 95, 97, 0.849);
+    font-size: 150px;
+}
   /*
    * Extra utilities
    */
